@@ -20,6 +20,11 @@
   --text-sm: 12px/170% var(--font-family);
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .bg-surface-color {
   background-color: var(--surface-color);
 }
