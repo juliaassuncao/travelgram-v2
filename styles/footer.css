@@ -1,0 +1,35 @@
+footer {
+  font: 14px/150% var(--font-family);
+
+  & span {
+    display: block;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  & .links {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+  }
+}
+
+@media (width >= 80em) {
+  .container {
+    padding: 1.5rem 2rem;
+  }
+  
+  footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    & span {
+      margin-bottom: 0;
+    }
+
+    & .links {
+      padding: 0.25rem;
+    }
+  }
+}
