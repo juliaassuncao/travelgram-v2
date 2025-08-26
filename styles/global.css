@@ -68,4 +68,9 @@ ul {
   .desktop-only {
     display: block;
   }
+
+  .desktop-mode {
+    margin-inline: auto;
+    max-width: 80rem;
+  }
 }
