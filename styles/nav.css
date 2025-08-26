@@ -5,7 +5,6 @@ nav {
 }
 
 nav ul{
-  list-style: none;
   display: flex;
   align-items: center;
   gap: 1rem;
@@ -17,7 +16,7 @@ nav ul li:last-child img {
 }
 
 @media (width >= 80em) {
-  .desktop-only {
-    display: block;
+  .container {
+    padding: 1.25rem 2rem;
   }
 }

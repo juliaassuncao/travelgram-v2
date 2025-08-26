@@ -48,6 +48,10 @@ a:hover {
   text-decoration: underline;
 }
 
+ul {
+  list-style: none;
+}
+
 .container {
   padding: 1rem;
 }
@@ -61,9 +65,7 @@ a:hover {
 }
 
 @media (width >= 80em) {
-  .container {
-    padding-inline: 2rem;
-    margin-inline: auto;
-    max-width: 80rem;
+  .desktop-only {
+    display: block;
   }
 }
